@@ -1,10 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bbf28a84-4bdb-407b-a2fa-32628d27fa3d/deploy-status)](https://app.netlify.com/sites/eleventy-netlify-boilerplate/deploys)
+# Eleventy Netlify Boilerplate with Pico.css
 
-# Eleventy Netlify Boilerplate
-
-### Click the button below to try it out!
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e530-e554-4142-bd15-31481fed44a3/deploy-status)](https://app.netlify.com/sites/loving-allen-0da441/deploys)
 
 ## What is it?
 
@@ -14,38 +10,29 @@ Use it as a starter for your own JAMstack projects, or as an easy way to get sta
 
 Based on the [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog) repo (see there for additional info on Eleventy usage).
 
-🔥 **This project is featured on Netlify's official [template showcase](https://templates.netlify.com/template/eleventy-netlify-boilerplate/)** 🔥
-
-## [Demo Site](https://eleventy-netlify-boilerplate.netlify.app/)
-
 ## Features
 
-* Uses the official [Eleventy Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to build menus
-* Sample pages and a blog with tag support
-* Netlify CMS with editor previews (thanks [@biilmann](https://github.com/biilmann)!)
-* Maintenance-free post author archives
-* Includes a working contact form
-* CSS 2kb minified, inlined for fastest page render
-* Optional pipeline for minified inline JS
-* Pre-builds and minifies your HTML too
-* Uses Markdown files for content
-* Uses Nunjucks (or Liquid) templates for layout
-* 100% Javascript framework free
-* Continuous Deployment workflow via Netlify
+All of [these awesome features](https://github.com/danurbanowicz/eleventy-netlify-boilerplate#features) (thanks [@danurbanowicz](https://github.com/danurbanowicz)), plus:
+
+- [picocss](https://picocss.com/docs/classless.html) (the class-less version)
+- a simple [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file)
+- configured [renovate bot](https://docs.renovatebot.com)
+
+## [Demo Site](https://eleventy-netlify-boilerplate-with-picocss.netlify.app/)
 
 ## Want to try it out now?
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/szilvesztercsab/eleventy-netlify-boilerplate&stack=cms)
 
 Clicking the button above will deploy a copy of the demo website to your Netlify
 account (you can create an account during this process if you don't have one)
 and everything needed for running the CMS:
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
-* Process form data with Netlify Forms
+- A new repository in your GitHub account with the code
+- Full Continuous Deployment to Netlify's global CDN network
+- Control users and access with Netlify Identity
+- Manage content with Netlify CMS
+- Process form data with Netlify Forms
 
 ### Setup authentication
 
@@ -76,16 +63,15 @@ If you need any help with setting up Netlify CMS, you can reach out to the Netli
 
 ## Local development
 
-### 1. Clone this repository:
+### 1. Clone this repository
 
+```console
+git clone https://github.com/szilvesztercsab/eleventy-netlify-boilerplate.git my-blog-name
 ```
-git clone https://github.com/danurbanowicz/eleventy-netlify-boilerplate.git my-blog-name
-```
-
 
 ### 2. Navigate to the directory
 
-```
+```console
 cd my-blog-name
 ```
 
@@ -93,37 +79,38 @@ Specifically have a look at `.eleventy.js` to see if you want to configure any E
 
 ### 3. Install dependencies locally
 
-```
+```console
 npm install @11ty/eleventy
 ```
 
-### 4. Edit _data/metadata.json
+### 4. Edit \_data/metadata.json
 
 This file contains your site title and author details, and can be used to store any other commonly used site data.
 
 ### 5. Run Eleventy (builds the site)
 
-```
+```console
 npx @11ty/eleventy
 ```
 
 Or build automatically when a template changes:
-```
+
+```console
 npx @11ty/eleventy --watch
 ```
 
 Or build and host locally for local development:
-```
+
+```console
 npx @11ty/eleventy --serve
 ```
 
 Or in debug mode:
-```
+
+```console
 DEBUG=* npx @11ty/eleventy
 ```
 
 ## Bug reports, feature requests, etc
 
-This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR.
-
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR. :heart:
