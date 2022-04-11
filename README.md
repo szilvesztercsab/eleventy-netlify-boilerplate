@@ -1,6 +1,6 @@
 # Eleventy Netlify Boilerplate with Pico.css
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e530-e554-4142-bd15-31481fed44a3/deploy-status)](https://app.netlify.com/sites/loving-allen-0da441/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e530-e554-4142-bd15-31481fed44a3/deploy-status)](https://app.netlify.com/sites/eleventy-netlify-boilerplate-with-picocss/deploys)
 
 ## What is it?
 
