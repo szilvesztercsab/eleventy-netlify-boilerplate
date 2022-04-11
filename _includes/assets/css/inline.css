@@ -42,8 +42,8 @@
 }
 
 header > nav > ul > li > a > img {
-  width: calc(var(--spacing) * 4);
-  min-width: calc(var(--spacing) * 2);
+  width: 3rem;
+  min-width: 2rem;
 }
 
 header > nav > ul > li > a[data-current="current item"] {
