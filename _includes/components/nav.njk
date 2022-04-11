@@ -1,4 +1,9 @@
 <nav>
+  <ul>
+    <li>
+      <a href="{{ '/' | url }}"><img src="/static/img/logo.png" alt="logo" /></a>
+    </li>
+  </ul>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
   {%- for entry in navPages %}
@@ -6,5 +11,10 @@
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     </li>
   {%- endfor %}
+  </ul>
+  <ul>
+    <li>
+      <input type="checkbox" role="switch" name="theme">
+    </li>
   </ul>
 </nav>
