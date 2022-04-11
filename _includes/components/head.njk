@@ -6,8 +6,8 @@
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
-    {% include "assets/css/pico.classless.min.css" %}
-    {% include "assets/css/inline.css" %}
+    {% include "../../node_modules/@picocss/pico/css/pico.classless.min.css" %}
+    {% include "../assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
