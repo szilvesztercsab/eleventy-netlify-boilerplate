@@ -19,3 +19,7 @@ For more info on installation and usage, view the [project repo]({{ pkg.reposito
 Or click the button below to deploy your own copy of this project to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/szilvesztercsab/eleventy-netlify-boilerplate&stack=cms)
+
+You can open the repository behind this site and work on it from [Gitpod](https://www.gitpod.io) by clicking the button bellow.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/szilvesztercsab/eleventy-netlify-boilerplate)
