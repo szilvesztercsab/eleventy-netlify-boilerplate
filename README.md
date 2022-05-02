@@ -111,6 +111,12 @@ Or in debug mode:
 DEBUG=* npx @11ty/eleventy
 ```
 
+## Development on Gitpod
+
+You can open this repository and work on it from [Gitpod](https://www.gitpod.io) by clicking the button bellow:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/szilvesztercsab/eleventy-netlify-boilerplate)
+
 ## Bug reports, feature requests, etc
 
 This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR. :heart:
