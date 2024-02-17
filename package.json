@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "0.3.5",
-    "@picocss/pico": "2.0.0",
+    "@picocss/pico": "2.0.3",
     "clean-css": "5.3.3",
     "html-minifier": "4.0.0",
     "uglify-js": "3.17.4"
