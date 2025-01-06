@@ -4,6 +4,11 @@
 	{% include "components/head.njk" %}
 
 	<body>
+	
+		{% set js %}
+			{% include "assets/js/body.js" %}
+		{% endset %}
+  	<script>{{ js | jsmin | safe }}</script>
 
 		<header>
 			{% include "components/nav.njk" %}
