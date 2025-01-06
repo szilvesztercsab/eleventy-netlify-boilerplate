@@ -15,6 +15,10 @@
   <ul>
     <li>
       <input type="checkbox" role="switch" name="theme">
+      {% set js %}
+        {% include "assets/js/themeToggler.js" %}
+      {% endset %}
+  	  <script>{{ js | jsmin | safe }}</script>
     </li>
   </ul>
 </nav>

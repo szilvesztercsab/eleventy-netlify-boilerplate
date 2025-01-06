@@ -31,12 +31,17 @@
 
 /* Customizations */
 
+header > nav > ul > li > a > img {
+  width: 65px;
+  height: 65px;
+}
+
 [data-theme="light"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-dark.png");
+  content: url("/static/img/logo-dark.png") / "Logo";
 }
 
 [data-theme="dark"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-light.png");
+  content: url("/static/img/logo-light.png") / "Logo";
 }
 
 header > nav > ul > li > a[data-current="current item"] {
