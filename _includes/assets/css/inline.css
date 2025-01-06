@@ -31,17 +31,18 @@
 
 /* Customizations */
 
-header > nav > ul > li > a > img {
+header > nav > ul > li > a {
   width: 65px;
   height: 65px;
+  display: block;
 }
 
-[data-theme="light"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-dark.png") / "Logo";
+[data-theme="light"] header > nav > ul > li > a {
+  background-image: url("/static/img/logo-dark.png");
 }
 
-[data-theme="dark"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-light.png") / "Logo";
+[data-theme="dark"] header > nav > ul > li > a {
+  background-image: url("/static/img/logo-light.png");
 }
 
 header > nav > ul > li > a[data-current="current item"] {
