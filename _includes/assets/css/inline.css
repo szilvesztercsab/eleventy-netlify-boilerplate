@@ -31,7 +31,7 @@
 
 /* Customizations */
 
-header > nav > ul > li > a {
+header > nav > ul > li > a:first-of-type {
   width: 65px;
   height: 65px;
   display: block;
