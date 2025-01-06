@@ -1,7 +1,7 @@
 <nav>
   <ul>
     <li>
-      <a href="{{ '/' | url }}"><img alt="logo" /></a>
+      <a href="{{ '/' | url }}"></a>
     </li>
   </ul>
   {% set navPages = collections.all | eleventyNavigation %}
@@ -15,6 +15,10 @@
   <ul>
     <li>
       <input type="checkbox" role="switch" name="theme">
+      {% set js %}
+        {% include "assets/js/themeToggler.js" %}
+      {% endset %}
+  	  <script>{{ js | jsmin | safe }}</script>
     </li>
   </ul>
 </nav>
