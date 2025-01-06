@@ -4,18 +4,6 @@
   <title>{{ renderData.title or title or metadata.title }} « {{ metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <script type="speculationrules">
-    {
-      "prerender": [
-        {
-          "eagerness": "eager",
-          "where": {
-            "href_matches": "/*"
-          }
-        }
-      ]
-    }
-  </script>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "../../node_modules/@picocss/pico/css/pico.classless.min.css" %}
