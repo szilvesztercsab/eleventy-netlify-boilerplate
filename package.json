@@ -32,7 +32,7 @@
     "@11ty/eleventy-navigation": "1.0.4",
     "@picocss/pico": "2.1.1",
     "clean-css": "5.3.3",
-    "html-minifier": "4.0.0",
+    "html-minifier": "5.0.1",
     "uglify-js": "3.19.3"
   }
 }
